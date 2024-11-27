@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-27T22:54:21 IST" name="Suite" finished-at="2024-11-27T22:54:36 IST" duration-ms="14685">
+    <groups>
+    </groups>
+    <test started-at="2024-11-27T22:54:21 IST" name="Test" finished-at="2024-11-27T22:54:36 IST" duration-ms="14685">
+      <class name="testCases.TC004_PCShoppingWindow">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_PCShoppingWindow@25641d39]" started-at="2024-11-27T22:54:21 IST" name="setUp" finished-at="2024-11-27T22:54:29 IST" duration-ms="7371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tc004_pcShoppingWindow()[pri:0, instance:testCases.TC004_PCShoppingWindow@25641d39]" started-at="2024-11-27T22:54:29 IST" name="tc004_pcShoppingWindow" finished-at="2024-11-27T22:54:30 IST" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc004_pcShoppingWindow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_PCShoppingWindow@25641d39]" started-at="2024-11-27T22:54:30 IST" name="tearDown" finished-at="2024-11-27T22:54:30 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_PCShoppingWindow -->
+      <class name="testCases.TC005_MacShoppingWindow">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC005_MacShoppingWindow@65c7a252]" started-at="2024-11-27T22:54:30 IST" name="setUp" finished-at="2024-11-27T22:54:34 IST" duration-ms="4313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tC005_MacShoppingWindow()[pri:0, instance:testCases.TC005_MacShoppingWindow@65c7a252]" started-at="2024-11-27T22:54:34 IST" name="tC005_MacShoppingWindow" finished-at="2024-11-27T22:54:35 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC005_MacShoppingWindow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC005_MacShoppingWindow@65c7a252]" started-at="2024-11-27T22:54:35 IST" name="tearDown" finished-at="2024-11-27T22:54:36 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC005_MacShoppingWindow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
