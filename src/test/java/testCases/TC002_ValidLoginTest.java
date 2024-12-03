@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC002_ValidLoginTest extends BaseClass{
 	
 	@Test
-	public void TC002_validLoginTest() {
+	public void tC002_validLoginTest() {
 		
 		logger.info("*** TC002_ValidLoginTest | Start ***");
 		
@@ -20,8 +20,7 @@ public class TC002_ValidLoginTest extends BaseClass{
 		home.clickLogin();
 		
 		AccountLoginPageObj acct = new AccountLoginPageObj(driver);
-		//acct.setEmailAddress(property.getProperty("email"));
-		acct.setEmailAddress("JPJloginId");
+		acct.setEmailAddress(property.getProperty("email"));
 		acct.setPassword(property.getProperty("pass"));
 		acct.clickLogin();
 		
