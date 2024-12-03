@@ -11,7 +11,9 @@
 		<parameter name="browser" value="Chrome" />
 
 		<classes>
-			<class name = "testCases.TC006_AddToCart"/>
+			<class name = "testCases.TC002_ValidLoginTest"/>
+			<class name=  "testCases.TC004_PCShoppingWindow"/>
+			<class name=  "testCases.TC005_MacShoppingWindow"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
